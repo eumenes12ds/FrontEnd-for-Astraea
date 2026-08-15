@@ -1,15 +1,15 @@
 export const mapSources = {
   low: {
     type: 'image',
-    url: 'https://i.ibb.co/bgFMhr2B/Maplite-4096.webp', // 4096×2335
+    url: 'https://raw.githubusercontent.com/eumenes12ds/FrontEnd-for-Astraea/main/static/map/Map-FULL.webp',
   },
   small: {
     type: 'image',
-    url: 'https://i.ibb.co/CKLKQQ4B/Maplite.webp', // 8340×4756
+    url: 'https://raw.githubusercontent.com/eumenes12ds/FrontEnd-for-Astraea/main/static/map/Map-FULL.webp',
   },
   large: {
     type: 'image',
-    url: 'https://i.ibb.co/gMCpcFd8/Map-FULL.webp', // 14594×8322
+    url: 'https://raw.githubusercontent.com/eumenes12ds/FrontEnd-for-Astraea/main/static/map/Map-FULL.webp',
   },
 } as const;
 
