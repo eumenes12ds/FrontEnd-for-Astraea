@@ -88,7 +88,7 @@ export function renderMarkdown(md: string): string {
     if (trimmed === '') {
       result.push('<br>');
     } else {
-      result.push(inlineFormat(trimmed));
+      result.push(inlineFormat(trimmed) + '<br>');
     }
     i++;
   }
@@ -97,7 +97,7 @@ export function renderMarkdown(md: string): string {
     result.push('</ul>');
   }
 
-  return result.join('\n');
+  return result.join('');
 }
 
 /**

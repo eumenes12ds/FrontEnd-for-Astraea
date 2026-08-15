@@ -86,8 +86,6 @@ interface Track {
 }
 
 const tracks: Track[] = [
-  { name: '第一乐章', url: 'https://files.catbox.moe/o1o64d.mp3' },
-  { name: '第二乐章', url: 'https://files.catbox.moe/vqs5tw.mp3' },
   { name: '第三乐章', url: 'https://files.catbox.moe/b0o5l9.mp3' },
 ];
 

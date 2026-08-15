@@ -8,7 +8,7 @@
 
 <style scoped>
 .page-super-title {
-  font-family: var(--title-font);
+  font-family: 'Cinzel', 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, 'Times New Roman', serif;
   font-weight: 700;
   text-align: center;
   font-size: 2.8em;
@@ -22,7 +22,7 @@
   font-style: italic;
   text-align: center;
   font-size: 1.3em;
-  color: #8b7355;
+  color: #eacf97;
   margin: 8px 0 0 0;
   letter-spacing: 3px;
   font-weight: 400;
@@ -31,23 +31,26 @@
 .ornamental-divider {
   border: 0;
   height: 1px;
-  background-color: var(--border-color);
+  background: linear-gradient(90deg, transparent, #a8842f 50%, transparent);
   position: relative;
   margin: 25px auto 30px auto;
   width: 85%;
+  overflow: visible;
 }
 
 .ornamental-divider::after {
-  content: '❖';
+  content: '';
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: var(--bg-color, #f5efe6);
-  padding: 0 15px;
-  color: var(--title-color);
-  font-size: 1.6em;
-  line-height: 1;
+  width: 9px;
+  height: 9px;
+  padding: 0;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: linear-gradient(135deg, #ecd49a, #a8842f);
+  background-color: transparent;
+  border: 1px solid #e6c88f;
+  box-shadow: 0 0 10px rgba(216, 182, 120, 0.75);
 }
 
 /* Responsive */

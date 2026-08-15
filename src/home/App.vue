@@ -37,17 +37,14 @@
 import { provide, readonly, ref } from 'vue';
 import AgreementPage from './components/AgreementPage.vue';
 import CorePage from './components/CorePage.vue';
-import DLCManagementPage from './components/DLCManagementPage.vue';
 import PageTitle from './components/PageTitle.vue';
 import ShowcaseSection from './components/ShowcaseSection.vue';
 import VinylPlayer from './components/VinylPlayer.vue';
 
-import StartPage from './components/StartPage.vue';
-
 const AGREEMENT_KEY = 'Astraea-agreed';
 
-// 用户协议 Gate
-const hasAgreed = ref(false);
+// 用户协议 Gate（已单步化：直接跳过协议）
+const hasAgreed = ref(true);
 
 function handleAgreed() {
   hasAgreed.value = true;
@@ -61,7 +58,7 @@ function handleAgreed() {
 
 const currentStep = ref(0);
 
-const steps = [DLCManagementPage, CorePage, StartPage];
+const steps = [CorePage];
 
 // 环境检查结果
 const envCheckResult = ref(null);
@@ -103,7 +100,7 @@ function handleEnvCheckComplete(result) {
 
 <style scoped>
 .selector-scroll {
-  background-color: #f5efe6;
+  background-color: #2b2014;
   max-width: 900px;
   width: 100%;
   margin: auto;

@@ -107,7 +107,7 @@ const specialThanks = ['FL已放弃治疗', 'tongtny123', '肆祀一一', '大�
   text-align: center;
   margin-bottom: 25px;
   padding: 20px;
-  background-color: rgba(253, 250, 245, 0.6);
+  background-color: rgba(58, 46, 30, 0.6);
   border-radius: 8px;
   border: 1px dashed var(--border-color);
 }
@@ -149,7 +149,7 @@ const specialThanks = ['FL已放弃治疗', 'tongtny123', '肆祀一一', '大�
 
 .credits-special {
   font-size: 0.95em;
-  color: #6a514d;
+  color: #c9b98f;
   margin-top: 10px;
   padding-top: 10px;
   border-top: 1px dotted var(--border-color);
@@ -172,7 +172,7 @@ const specialThanks = ['FL已放弃治疗', 'tongtny123', '肆祀一一', '大�
   font-weight: 700;
   font-size: 1.1em;
   color: var(--title-color);
-  background-color: rgba(253, 250, 245, 0.6);
+  background-color: rgba(58, 46, 30, 0.8);
   padding: 12px 20px;
   cursor: pointer;
   list-style: none;
@@ -187,7 +187,7 @@ const specialThanks = ['FL已放弃治疗', 'tongtny123', '肆祀一一', '大�
 }
 
 .info-panel > summary:hover {
-  background-color: rgba(253, 250, 245, 0.8);
+  background-color: rgba(78, 62, 40, 0.9);
 }
 
 .arrow-toggle {
@@ -255,12 +255,12 @@ const specialThanks = ['FL已放弃治疗', 'tongtny123', '肆祀一一', '大�
 }
 
 .world-quote {
-  background-color: rgba(245, 239, 230, 0.5);
+  background-color: rgba(58, 46, 30, 0.55);
   border-left: 3px solid var(--border-strong-color);
   padding: 12px 18px;
   margin: 15px 0;
-  font-style: italic;
-  color: #5d4037;
+  font-style: normal;
+  color: #f2e8d2;
   font-family: 'KaiTi', 'STKaiti', '楷体', var(--body-font);
   line-height: 1.6;
 }
