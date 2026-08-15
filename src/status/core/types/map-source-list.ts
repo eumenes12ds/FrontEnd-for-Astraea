@@ -17,11 +17,6 @@ export const mapSourceList: MapSourceConfig[] = [
     name: '高清地图',
     url: mapSources.small.url,
   },
-  {
-    key: 'large',
-    name: '超清地图',
-    url: mapSources.large.url,
-  },
 ];
 
 export type { MapSourceKey };
