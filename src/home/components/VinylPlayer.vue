@@ -85,9 +85,7 @@ interface Track {
   url: string;
 }
 
-const tracks: Track[] = [
-  { name: '第三乐章', url: 'https://files.catbox.moe/b0o5l9.mp3' },
-];
+const tracks: Track[] = [{ name: '第三乐章', url: 'https://files.catbox.moe/b0o5l9.mp3' }];
 
 const currentIndex = ref(0);
 const isPlaying = ref(false);

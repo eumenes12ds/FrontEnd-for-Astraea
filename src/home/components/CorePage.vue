@@ -1,7 +1,9 @@
 <template>
   <div class="core-page">
     <h2 class="main-title">核心选择</h2>
-    <p class="core-subtitle">跨越星海降临的异界灵魂，是你孤独残躯里唯一永恒的共振，也是你同生共死的命定之灵</p>
+    <p class="core-subtitle">
+      跨越星海降临的异界灵魂，是你孤独残躯里唯一永恒的共振，也是你同生共死的命定之灵
+    </p>
 
     <div class="control-panel-container">
       <div class="tab-content">

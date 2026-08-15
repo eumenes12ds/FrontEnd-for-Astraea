@@ -8,7 +8,8 @@
 
 <style scoped>
 .page-super-title {
-  font-family: 'Cinzel', 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, 'Times New Roman', serif;
+  font-family:
+    'Cinzel', 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, 'Times New Roman', serif;
   font-weight: 700;
   text-align: center;
   font-size: 2.8em;
