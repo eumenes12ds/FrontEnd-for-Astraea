@@ -301,17 +301,6 @@ const DestinyTabContent: FC<WithMvuDataProps> = ({ data }) => {
     : null;
 
   /**
-   * 处理 FP 商店按钮点击
-   * 发送用户消息"打开FP商店"并触发 AI 回复
-   */
-  const handleOpenFpShop = async () => {
-    // 发送用户消息
-    await createChatMessages([{ role: 'user', message: '打开FP商店' }]);
-    // 触发 AI 回复
-    await triggerSlash('/trigger');
-  };
-
-  /**
    * 渲染可编辑字段行
    * 非编辑模式：保持原有布局
    * 编辑模式：替换为 EditableField
@@ -1795,13 +1784,6 @@ const DestinyTabContent: FC<WithMvuDataProps> = ({ data }) => {
     <div
       className={`${styles.destinyTab} ${isPartnerDetailVisible ? styles.destinyTabDetailModeMobile : ''}`}
     >
-      {/* FP商店按钮（暂时禁用，待正式上线） */}
-      <button className={styles.fpShopBtn} onClick={handleOpenFpShop} disabled title="待上线">
-        <i className="fa-solid fa-store" />
-        <span>FP商店</span>
-        <span className={styles.comingSoonBadge}>待上线</span>
-      </button>
-
       {/* 命运点数 */}
       <Card className={styles.destinyTabPoints}>
         <div className={styles.destinyPoints}>
